@@ -1,0 +1,36 @@
+<div class="main_nav" id="main_nav">
+  <img src="https://stshrewsbury.dev/images/logo/logo.png" alt="Website logo">
+  <div class="navigation">
+    <a href="https://stshrewsbury.dev/">Home</a>
+    <div class="dropdown">
+      <button class="dropdown_button">Projects <i class="fa fa-caret-down"></i></button>
+      <div class="dropdown_menu">
+        <a href="#">Python modules</a>
+        <a href="#">Discord bots</a>
+        <a href="#">Artwork</a>
+        <a href="#">Miscellaneous</a>
+      </div>
+    </div>
+    <a href="#">About</a>
+    <div class="dropdown">
+      <button class="dropdown_button">Social <i class="fa fa-caret-down"></i></button>
+      <div class="dropdown_menu">
+        <a href="#">Twitter</a>
+        <a href="#">GitHub</a>
+        <a href="#">YouTube</a>
+        <a href="#">Blog</a>
+        <a href="#">Discord</a>
+        <a href="#">YouTube</a>
+        <a href="#">Twitch</a>
+      </div>
+    </div>
+    <a href="javascript:void(0);" style="font-size:15px;" class="icon" onclick="update_menu()">&#9776;</a>
+  </div>
+</div>
+<script>
+  function update_menu(){
+    var x = document.getElementById("main_nav")
+    if (x.className === "main_nav"){x.className += " mobile";}
+    else{x.className = "main_nav";}
+  }
+</script>
