@@ -1,0 +1,76 @@
+.splash_message{
+  margin: 10px 50px;
+  min-height: 500px;
+  background-color: rgba(0, 0, 0, 0.45);
+  border-radius: 25px;
+  color: rgb(225, 225, 225);
+  text-align: center;
+  overflow: hidden;
+  transition: .5s;
+}
+
+.splash_message h1{
+  padding-top: 120px;
+  margin: 0;
+  font-size: 55px;
+  font-weight: normal;
+  transition: .5s;
+}
+
+.splash_message h2{
+  padding-top: 25px;
+  margin: 0;
+  font-size: 30px;
+  font-weight: normal;
+  transition: .5s;
+}
+
+.splash_message h3{
+  padding-top: 20px;
+  margin: 0;
+  font-size: 25px;
+  font-weight: normal;
+  transition: .5s;
+}
+
+
+@media screen and (max-width: 1200px){
+  .splash_message h1{
+    font-size: 45px;
+    transition: .5s;
+  }
+
+  .splash_message h2{
+    font-size: 25px;
+    transition: .5s;
+  }
+
+  .splash_message h3{
+    font-size: 20px;
+    transition: .5s;
+  }
+}
+
+@media screen and (max-width: 999px){
+  .splash_message h1{
+    font-size: 35px;
+    transition: .5s;
+  }
+
+  .splash_message h2{
+    font-size: 20px;
+    transition: .5s;
+  }
+
+  .splash_message h3{
+    font-size: 16px;
+    transition: .5s;
+  }
+}
+
+@media screen and (max-width: 750px){
+  .splash_message{
+      margin: 10px 25px;
+      transition: .5s;
+  }
+}

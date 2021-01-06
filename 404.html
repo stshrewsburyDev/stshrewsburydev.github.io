@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="404 - Page not found...">
+    <meta name="keywords" content="stshrewsburyDev, stshrewsbury.dev, Steven Shrewsbury, Programming, Python">
+    <meta name="author" content="Steven Shrewsbury">
+
+    <!-- OG metatags -->
+    <meta name="og:title" content="404 | stshrewsbury.dev">
+    <meta name="og:description" content="404 - Page not found...">
+    <meta name="og:url" content="https://stshrewsbury.dev/">
+    <meta name="og:image" content="https://stshrewsbury.dev/images/icon/icon_1024px.png">
+    <meta name="og:locale" content="en_GB">
+    <meta name="og:type" content="website">
+
+    <!-- Other -->
+    <title>404 | stshrewsbury.dev</title>
+    <link rel="icon" href="https://stshrewsbury.dev/images/icon/icon_32px.png" sizes="32x32">
+    <link rel="icon" href="https://stshrewsbury.dev/images/icon/icon_48px.png" sizes="48x48">
+    <link rel="icon" href="https://stshrewsbury.dev/images/icon/icon_96px.png" sizes="96x96">
+    <link rel="icon" href="https://stshrewsbury.dev/images/icon/icon_144px.png" sizes="144x144">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://kit.fontawesome.com/b2dcc08636.js" crossorigin="anonymous"></script>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;900&display=swap">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://stshrewsbury.dev/css/master.css">
+    <link rel="stylesheet" href="https://stshrewsbury.dev/css/404.css">
+  </head>
+  <body style="background-image: url('https://stshrewsbury.dev/images/background/main.png');">
+    <!-- Main nav -->
+    <div id="main-nav-placeholder"></div>
+    <script>
+      $(function(){$("#main-nav-placeholder").load("https://stshrewsbury.dev/navigation.html");});
+    </script>
+
+    <!-- Splash message -->
+    <div class="splash_message">
+      <h1>404 - Page not found...</h1>
+      <h2 id="quote">Well this is awkward...</h2>
+      <h3>It appears your trying to access a part of the website that does not exist.<br>It may have been taken down or it may have never existed.<br>Ensure you have the correct URL and try again...</h3>
+    </div>
+
+    <!-- Change quote script -->
+    <script type="text/javascript">
+      // Fun little message for people that randomly decide to look at console, gg if you found this without needing to look at this source code!
+      console.log("Hello o/");
+      console.log("It seems you have stumbled outside the fabric of reality into the unknown land known as the 404...");
+      console.log("I respect your bravery good sir, please have this cookie as a reward! 🍪");
+
+      // Quotes list
+      var quotes = [
+        '"Well this is awkward..."',
+        '"I don\'t think this was meant to happen... Or was it..."',
+        '"404... What a random number..."',
+        '"Ah something broke. I think I can fix this, one second... Wait no I can\'t... :("',
+        '"What are you trying to do over there user?"',
+        '"I\'ll call tech support about this one tomorrow."',
+        '"Can\'t call superman to fix this one..."',
+        '"Let\'s sing a song instead of trying to access this page that doesnt exist.<br>🎶10 green bottles sitting on the wall...🎶"',
+        '"Also known as the square root of 163,216 error code :D"',
+        '"What more can I say, this page just doesn\'t exist..."',
+        '"Have you tried turning it off and on again?"',
+        '"Are you definately sure you turned it off and on again?"',
+        '"The mitochondria is the powerhouse of the cell!"',
+        '"This is embarrassing..."',
+        '"Good morning, that\'s a nice tnetennba."<br> - Morris moss (From the British sitcom "The IT Crowd" - <a href=\'https://www.youtube.com/watch?v=lsFAokXCxTI\' target=\'_blank\'>https://www.youtube.com/watch?v=lsFAokXCxTI</a>)'
+      ];
+
+      // Set quote
+      var quote = quotes[Math.floor(Math.random() * quotes.length)];
+
+      document.getElementById("quote").innerHTML = quote;
+    </script>
+
+    <!-- Footer -->
+    <div id="footer-placeholder"></div>
+    <script>
+      $(function(){$("#footer-placeholder").load("https://stshrewsbury.dev/footer.html");});
+    </script>
+  </body>
+</html>

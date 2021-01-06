@@ -1,0 +1,183 @@
+.splash_message{
+  margin: 10px 50px;
+  min-height: 500px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  border-radius: 25px;
+  color: rgb(225, 225, 225);
+  text-align: center;
+  overflow: hidden;
+  transition: .5s;
+}
+
+.splash_message h1{
+  padding-top: 120px;
+  margin: 0;
+  font-size: 55px;
+  font-weight: normal;
+  transition: .5s;
+}
+
+.splash_message h2{
+  padding-top: 25px;
+  margin: 0;
+  font-size: 30px;
+  font-weight: normal;
+  transition: .5s;
+}
+
+.splash_message h3{
+  padding-top: 20px;
+  margin: 0;
+  font-size: 25px;
+  font-weight: normal;
+  transition: .5s;
+}
+
+.whoami{
+  margin: 50px 50px 10px 50px;
+  min-height: 620px;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.45);
+  border-radius: 25px;
+  color: rgb(225, 225, 225);
+  overflow: hidden;
+  transition: .5s;
+}
+
+.whoami #title{
+  padding: 25px;
+  margin: 0;
+  font-size: 35px;
+  font-weight: normal;
+  text-decoration: underline;
+  text-align: center;
+  transition: .5s;
+}
+
+.whoami #image{
+  float: left;
+  box-shadow: 0 0 15px #9C23DE;
+  margin: 0px 25px 25px 25px;
+  height: 500px;
+  width: auto;
+  border-radius: 100px;
+  transition: .5s;
+}
+
+.whoami #text{
+  margin: 0;
+  text-align: left;
+  font-size: 22px;
+  transition: .5s;
+}
+
+.whoami ul{
+  list-style-type: square;
+  font-size: 22px;
+  transition: .5s;
+}
+
+.whoami #bolden{
+  font-weight: 600;
+}
+
+.whoami #underline{
+  text-decoration: underline;
+}
+
+.whoami #small_text{
+  font-size: 12px;
+  font-style: italic;
+}
+
+@media screen and (max-width: 1200px){
+  .splash_message h1{
+    font-size: 45px;
+    transition: .5s;
+  }
+
+  .splash_message h2{
+    font-size: 25px;
+    transition: .5s;
+  }
+
+  .splash_message h3{
+    font-size: 20px;
+    transition: .5s;
+  }
+
+  .whoami #title{
+    font-size: 32px;
+    transition: .5s;
+  }
+
+  .whoami #image{
+    height: 400px;
+    transition: .5s;
+  }
+
+  .whoami #text, .whoami ul{
+    font-size: 18px;
+    transition: .5s;
+  }
+}
+
+@media screen and (max-width: 999px){
+  .splash_message h1{
+    font-size: 35px;
+    transition: .5s;
+  }
+
+  .splash_message h2{
+    font-size: 20px;
+    transition: .5s;
+  }
+
+  .splash_message h3{
+    font-size: 16px;
+    transition: .5s;
+  }
+
+  .whoami #title{
+    font-size: 30px;
+    transition: .5s;
+  }
+
+  .whoami #image{
+    height: 380px;
+    transition: .5s;
+  }
+
+  .whoami #text, .whoami ul{
+    font-size: 16px;
+    transition: .5s;
+  }
+}
+
+@media screen and (max-width: 900px){
+  .whoami #image{
+    float: none;
+    display: block;
+    margin: 0px auto 25px auto;
+    transition: .5s;
+  }
+}
+
+@media screen and (max-width: 750px){
+  .splash_message{
+      margin: 10px 25px;
+      transition: .5s;
+  }
+
+  .whoami{
+      margin: 50px 25px 10px 25px;
+      transition: .5s;
+  }
+
+  .whoami #text, .whoami ul{
+    font-size: 14px;
+    transition: .5s;
+  }
+}
