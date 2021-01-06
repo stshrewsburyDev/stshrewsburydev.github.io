@@ -38,7 +38,7 @@
   </head>
   <body style="background-image: url('./images/background/main.png');">
     <h1 style="color: rgb(175, 0, 0);background-color: black;position: fixed;top: 0;left: 0;">NOTE: This site is still in development so things are still not working fully</h1>
-    
+
     <!-- Main nav -->
     <div id="main-nav-placeholder"></div>
     <script>
@@ -51,6 +51,21 @@
       <h2>Welcome to the home of my website!</h2>
       <h3>Created by Steven Shrewsbury (stshrewsburyDev)</h3>
     </div>
+
+    <!-- ??? -->
+    <div id="tree_popup">
+      <div class="popup">
+        <button onclick="tree()" type="button" name="button"><i class="fas fa-times"></i></button>
+        <p>"I guess I'm a little weird. I like to talk to trees and animals. That's okay though, I have more fun than most people."<br> - <strong>Bob Ross</strong></p>
+      </div>
+    </div>
+    <script type="text/javascript">
+      function tree(){
+        var p = document.getElementById("tree_popup").style;
+        if (p.display === "block"){p.display = "none";}
+        else{p.display = "block";}
+      };
+    </script>
 
     <!-- Who am I -->
     <div class="whoami">
@@ -67,6 +82,7 @@
           <li>My favourite animals are owls (especially the Bengal Eagle Owl and the Northern Saw-whet Owl) and cats (they are all just so adorable 💜🦉🐈💜).</li>
           <li>As you can tell from my spelling of "colour" earlier I am from the UK. 🇬🇧</li>
           <li>I have a pet budgie called Rockie.</li>
+          <li>Apart from programming I love listening to the wonderful sounds of nature! <button style="border:none;background:none;font-size:inherit;padding:0;" onclick="tree()" type="button" name="">🌳</button>🌧️</li>
         </ul>
         <span id="small_text">(Yes that is an image of me there... laugh if you must lol)<span>
       </p>
