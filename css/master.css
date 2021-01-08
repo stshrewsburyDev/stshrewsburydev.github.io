@@ -16,6 +16,19 @@ body{
   background-attachment: fixed;
 }
 
+#bolden{
+  font-weight: 600;
+}
+
+#underline{
+  text-decoration: underline;
+}
+
+#small_text{
+  font-size: 12px;
+  font-style: italic;
+}
+
 
 /* Footer */
 footer{
@@ -243,6 +256,10 @@ footer i{
     float: none;
     display: block;
     text-align: left;
+  }
+
+  .main_nav.mobile a.icon{
+    text-align: center;
   }
 
   .main_nav.mobile .navigation .dropdown{
