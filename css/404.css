@@ -1,3 +1,5 @@
+@charset "UTF-8";
+
 .splash_message{
   margin: 10px 50px;
   min-height: 500px;
@@ -31,6 +33,15 @@
   font-size: 25px;
   font-weight: normal;
   transition: .5s;
+}
+
+.splash_message a{
+  color: rgb(180, 100, 220);
+  text-decoration: none;
+}
+
+.splash_message a:hover{
+  color: rgb(210, 130, 250);
 }
 
 

@@ -1,3 +1,5 @@
+@charset "UTF-8";
+
 .splash_message{
   margin: 10px 50px;
   min-height: 500px;
@@ -77,19 +79,6 @@
   list-style-type: square;
   font-size: 22px;
   transition: .5s;
-}
-
-.whoami #bolden{
-  font-weight: 600;
-}
-
-.whoami #underline{
-  text-decoration: underline;
-}
-
-.whoami #small_text{
-  font-size: 12px;
-  font-style: italic;
 }
 
 @media screen and (max-width: 1200px){
