@@ -36,7 +36,6 @@
     <script src="https://kit.fontawesome.com/b2dcc08636.js" crossorigin="anonymous"></script>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
     <link rel="stylesheet" href="./css/master.css">
-    <link rel="stylesheet" href="./css/index.css">
 
     <style media="screen">
       .splash_message{
@@ -158,6 +157,96 @@
       #tree_popup .popup p{
         margin: 10px 40px 10px 10px;
         font-size: 22px;
+      }
+
+      @media screen and (max-width: 1200px){
+        .splash_message h1{
+          font-size: 45px;
+          transition: .5s;
+        }
+
+        .splash_message h2{
+          font-size: 25px;
+          transition: .5s;
+        }
+
+        .splash_message h3{
+          font-size: 20px;
+          transition: .5s;
+        }
+
+        .whoami #title{
+          font-size: 32px;
+          transition: .5s;
+        }
+
+        .whoami #image{
+          height: 400px;
+          transition: .5s;
+        }
+
+        .whoami #text, .whoami ul{
+          font-size: 18px;
+          transition: .5s;
+        }
+      }
+
+      @media screen and (max-width: 999px){
+        .splash_message h1{
+          font-size: 35px;
+          transition: .5s;
+        }
+
+        .splash_message h2{
+          font-size: 20px;
+          transition: .5s;
+        }
+
+        .splash_message h3{
+          font-size: 16px;
+          transition: .5s;
+        }
+
+        .whoami #title{
+          font-size: 30px;
+          transition: .5s;
+        }
+
+        .whoami #image{
+          height: 380px;
+          transition: .5s;
+        }
+
+        .whoami #text, .whoami ul{
+          font-size: 16px;
+          transition: .5s;
+        }
+      }
+
+      @media screen and (max-width: 900px){
+        .whoami #image{
+          float: none;
+          display: block;
+          margin: 0px auto 25px auto;
+          transition: .5s;
+        }
+      }
+
+      @media screen and (max-width: 750px){
+        .splash_message{
+            margin: 10px 25px;
+            transition: .5s;
+        }
+
+        .whoami{
+            margin: 50px 25px 10px 25px;
+            transition: .5s;
+        }
+
+        .whoami #text, .whoami ul{
+          font-size: 14px;
+          transition: .5s;
+        }
       }
     </style>
 
