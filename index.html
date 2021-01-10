@@ -28,14 +28,15 @@
     <link rel="icon" href="./images/icon/icon_48px.png" sizes="48x48">
     <link rel="icon" href="./images/icon/icon_96px.png" sizes="96x96">
     <link rel="icon" href="./images/icon/icon_144px.png" sizes="144x144">
+    <script src="lazysizes.min.js" async></script>
   </head>
   <body style="background-image: url('./images/background/main.webp');">
     <!-- Load other things -->
-    <link rel="preload" as="style" href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600&display=swap">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600&display=swap">
     <script src="https://kit.fontawesome.com/b2dcc08636.js" crossorigin="anonymous"></script>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
-    <link rel="preload" as="style" href="./css/master.css">
-    <link rel="preload" as="style" href="./css/index.css">
+    <link rel="stylesheet" href="./css/master.css">
+    <link rel="stylesheet" href="./css/index.css">
 
     <!-- Main nav -->
     <div id="main-nav-placeholder"></div>
@@ -68,7 +69,7 @@
     <!-- Who am I -->
     <div class="whoami">
       <h1 id="title">So who are you?</h1>
-      <img id="image" src="./images/misc/me.webp" alt="A picture of me">
+      <img id="image" src="./images/misc/me.webp" class="lazyload" alt="A picture of me">
       <p id="text">
         Well im glad you asked... unless you didnt ask...<br>
         Hello, I am Steven (or as some know me by stshrewsburyDev).<br><br>
