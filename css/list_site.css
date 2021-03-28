@@ -1,0 +1,190 @@
+@charset "UTF-8";
+
+.infobox{
+  margin: 10px 50px;
+  min-height: 200px;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.45);
+  border-radius: 25px;
+  color: rgb(225, 225, 225);
+  overflow: hidden;
+  transition: .5s;
+}
+
+.infobox #title{
+  padding: 25px;
+  margin: 0;
+  font-size: 35px;
+  font-weight: normal;
+  text-decoration: underline;
+  text-align: center;
+  transition: .5s;
+}
+
+.infobox #text{
+  margin: 0;
+  text-align: left;
+  padding: 10px;
+  font-size: 22px;
+  transition: .5s;
+}
+
+.infobox ul{
+  list-style-type: square;
+  font-size: 22px;
+  transition: .5s;
+}
+
+.infobox a{
+  color: rgb(180, 100, 220);
+  text-decoration: none;
+}
+
+.infobox a:hover{
+  color: rgb(210, 130, 250);
+}
+
+.infobox code{
+  background-color: rgba(0, 0, 0, .75);
+  color: rgb(150, 150, 250);
+  padding: 2px;
+  border-radius: 5px;
+}
+
+.list{
+  margin: 10px 50px;
+  min-height: 200px;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.45);
+  border-radius: 25px;
+  overflow: hidden;
+  transition: .5s;
+}
+
+.list a{
+  text-decoration: none;
+}
+
+.list .item{
+  min-height: 250px;
+  color: rgb(220, 220, 220);
+  transition: .5s;
+}
+
+.list a:not(:last-child) .item{
+  border-bottom: solid 2px rgb(175, 175, 175);
+}
+
+.list .item:hover{
+  background-color: rgba(220, 220, 220, .25);
+  transition: .5s;
+}
+
+.list .item img{
+  float: left;
+  margin: 12.5px;
+  border-radius: 20px;
+  height: 225px;
+  transition: .5s;
+}
+
+.list .item h1{
+  font-weight: 600;
+  font-size: 35px;
+  margin: 0;
+  padding: 12.5px;
+  transition: .5s;
+}
+
+.list .item p{
+  font-size: 16px;
+  margin: 0;
+  padding: 12.5px;
+  transition: .5s;
+}
+
+@media screen and (max-width: 1200px){
+  .infobox #title{
+    font-size: 32px;
+    transition: .5s;
+  }
+
+  .infobox #text, .infobox ul{
+    font-size: 18px;
+    transition: .5s;
+  }
+
+  .list .item{
+    min-height: 225px;
+    transition: .5s;
+  }
+
+  .list .item img{
+    height: 200px;
+    transition: .5s;
+  }
+
+  .list .item h1{
+    font-size: 32px;
+    transition: .5s;
+  }
+}
+
+@media screen and (max-width: 999px){
+  .infobox #title{
+    font-size: 30px;
+    transition: .5s;
+  }
+
+  .infobox #text, .infobox ul{
+    font-size: 16px;
+    transition: .5s;
+  }
+
+  .list .item{
+    min-height: 200px;
+    transition: .5s;
+  }
+
+  .list .item img{
+    height: 175px;
+    transition: .5s;
+  }
+
+  .list .item h1{
+    font-size: 30px;
+    transition: .5s;
+  }
+
+  .list .item p{
+    font-size: 14px;
+    transition: .5s;
+  }
+}
+
+@media screen and (max-width: 750px){
+  .infobox, .list{
+      margin: 10px 25px;
+      transition: .5s;
+  }
+
+  .infobox #text, .infobox ul{
+    font-size: 14px;
+    transition: .5s;
+  }
+
+  .list .item{
+    min-height: 175px;
+    transition: .5s;
+  }
+
+  .list .item img{
+    height: 150px;
+    transition: .5s;
+  }
+
+  .list .item h1{
+    font-size: 25px;
+    transition: .5s;
+  }
+}
